@@ -1,6 +1,6 @@
 Mock Portfolio
 
-![Demo Mock Portfolio](../images/mock-folio-demo.gif)
+![Demo Mock Portfolio](./assets/images/mock-folio-demo.gif)
 
 
 ## References
