@@ -18,12 +18,19 @@ header {
     flex-wrap: wrap;
 }
 
+footer {
+    padding: 20px 35px;
+    background-color: #D56560;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #F4F9F3;
     margin: 0;
-    display: inline;
 }
 
 header a {
@@ -103,8 +110,13 @@ img {
 #about-me {
     display: flex;
     padding-bottom: 40px;
+    padding-left: 5%;
     width: 80%;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+}
+
+div {
+    padding-left: 5%;
 }
