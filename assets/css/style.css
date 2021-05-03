@@ -55,6 +55,7 @@ div {
     background-size: cover;
     background-position: center;
     color: #F4F9F3;
+    height: 250px;
     
 }
 
@@ -63,8 +64,16 @@ img {
     width: 200px;
 }
 
+.featured-project img {
+    height: 500px;
+    width: 500px
+}
+
 .section-title {
     display: flex;
+    text-align: right;
+    padding-right: 40px;
+    margin-bottom: 40px;
 
 }
 
@@ -89,4 +98,13 @@ img {
     flex-wrap: wrap;
     justify-content: space-between;
 
+}
+
+#about-me {
+    display: flex;
+    padding-bottom: 40px;
+    width: 80%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
