@@ -55,6 +55,11 @@ header nav ul {
     
 }
 
+img {
+    height: 200px;
+    width: 200px;
+}
+
 .section-title {
     display: flex;
 
@@ -67,8 +72,13 @@ header nav ul {
 
 .featured-project {
     display: flex;
+    flex-direction: column;
+
 }
 
-.secondary-project {
+.columns {
     display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 2;
 }
