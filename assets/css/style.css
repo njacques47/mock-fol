@@ -57,6 +57,10 @@ div {
 
 }
 
+a {
+    text-decoration: none;
+}
+
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
@@ -72,8 +76,8 @@ img {
 }
 
 .featured-project img {
-    height: 500px;
-    width: 500px
+    height: 300px;
+    width: 300px
 }
 
 .section-title {
@@ -92,21 +96,15 @@ img {
 
 .featured-project {
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+    justify-content: center;
+    width: 80%;
+    
 }
 
 .rows {
     width: 80%;
 }
 
-.flex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-}
 
 #about-me {
     display: flex;
